@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "app-store.h"
 
 @interface ViewController : UIViewController
 
