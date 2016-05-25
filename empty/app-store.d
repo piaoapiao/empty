@@ -1,11 +1,10 @@
-syscall:::entry
-/ execname == "App Store" /
+provider syncengine_sync {
+    probe strategy_go_to_state(int);
+};
+
+syncengine_sync*:::strategy_go_to_state
 {
-    self->ts = timestamp;
+    printf("Transitioning to state %d\n", arg0);
 }
 
-syscall:::return
-/ execname == "App Store" && self->ts != 0 /
-{
-    @totals[probefunc] = sum(timestamp - self->ts);
-}
+

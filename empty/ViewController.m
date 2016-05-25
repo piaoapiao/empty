@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "app-store.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SYNCENGINE_SYNC_STRATEGY_GO_TO_STATE(1);
 }
 
 - (void)didReceiveMemoryWarning {
