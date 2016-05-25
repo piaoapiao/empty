@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		06B42C491CF557E8000F68EE /* app-store.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = "app-store.d"; sourceTree = "<group>"; };
-		06B42C4B1CF557F4000F68EE /* app-store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "app-store.h"; sourceTree = "<group>"; };
 		06B8F44B1CF3EE070023835F /* empty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B8F44F1CF3EE070023835F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06B8F4511CF3EE070023835F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,7 +103,6 @@
 		06B8F44D1CF3EE070023835F /* empty */ = {
 			isa = PBXGroup;
 			children = (
-				06B42C4B1CF557F4000F68EE /* app-store.h */,
 				06B42C491CF557E8000F68EE /* app-store.d */,
 				06B8F4511CF3EE070023835F /* AppDelegate.h */,
 				06B8F4521CF3EE070023835F /* AppDelegate.m */,
