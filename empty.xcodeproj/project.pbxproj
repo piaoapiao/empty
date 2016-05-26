@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B42C4A1CF557E8000F68EE /* app-store.d in Sources */ = {isa = PBXBuildFile; fileRef = 06B42C491CF557E8000F68EE /* app-store.d */; };
+		06B42C4A1CF557E8000F68EE /* state.d in Sources */ = {isa = PBXBuildFile; fileRef = 06B42C491CF557E8000F68EE /* state.d */; };
 		06B8F4501CF3EE070023835F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8F44F1CF3EE070023835F /* main.m */; };
 		06B8F4531CF3EE070023835F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8F4521CF3EE070023835F /* AppDelegate.m */; };
 		06B8F4561CF3EE070023835F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B8F4551CF3EE070023835F /* ViewController.m */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06B42C491CF557E8000F68EE /* app-store.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = "app-store.d"; sourceTree = "<group>"; };
+		06B42C491CF557E8000F68EE /* state.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = state.d; sourceTree = "<group>"; };
 		06B8F44B1CF3EE070023835F /* empty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B8F44F1CF3EE070023835F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06B8F4511CF3EE070023835F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		06B8F44D1CF3EE070023835F /* empty */ = {
 			isa = PBXGroup;
 			children = (
-				06B42C491CF557E8000F68EE /* app-store.d */,
+				06B42C491CF557E8000F68EE /* state.d */,
 				06B8F4511CF3EE070023835F /* AppDelegate.h */,
 				06B8F4521CF3EE070023835F /* AppDelegate.m */,
 				06B8F4541CF3EE070023835F /* ViewController.h */,
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B42C4A1CF557E8000F68EE /* app-store.d in Sources */,
+				06B42C4A1CF557E8000F68EE /* state.d in Sources */,
 				06B8F4561CF3EE070023835F /* ViewController.m in Sources */,
 				06B8F4531CF3EE070023835F /* AppDelegate.m in Sources */,
 				06B8F4501CF3EE070023835F /* main.m in Sources */,
